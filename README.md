@@ -1,5 +1,7 @@
-Nuclear Terminal: A game based on the computer hacking minigame from Fallout 3 and Fallout: New Vegas.
+#### Nuclear Terminal
 
-Compile: javac NTApp.java
+A game based on the computer hacking minigame from Fallout 3 and Fallout: New Vegas.
 
-Run: java NTApp level
+Compile: `javac NTApp.java`
+
+Run: `java NTApp <level>`
