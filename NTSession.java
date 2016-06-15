@@ -67,8 +67,11 @@ public class NTSession {
 			}
 		} else {
 			try {
-				Runtime.getRuntime().exec("clear");
+				new ProcessBuilder("clear").inheritIO().start().waitFor();
 			} catch (IOException e) {
+				System.out.println(e);
+				System.exit(-1);
+			} catch (InterruptedException e) {
 				System.out.println(e);
 				System.exit(-1);
 			}
